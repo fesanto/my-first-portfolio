@@ -3,4 +3,14 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
+
+.home {
+  background: url("../img/dev.png");
+  background-size: cover;
+  height: 80vh;
+}
+
+.home__text {
+  padding-top: 400px;
+}
 /*# sourceMappingURL=style.css.map */
