@@ -22,6 +22,11 @@
   text-align: center;
 }
 
+/*proibindo de mexer no tamanho da textarea*/
+textarea {
+  resize: none;
+}
+
 .footer__p {
   font-size: 11px;
 }
