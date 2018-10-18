@@ -12,6 +12,10 @@
     padding-top: 400px;
 }
 
+.home__text-p{
+    font-size: 15px;
+}
+
 .cards{
     margin-bottom: 25px;
 }
@@ -27,4 +31,14 @@ textarea {
 
 .footer__p{
     font-size: 11px;
+}
+
+span.error{
+    font-size: 10px;
+    color: #ff0000;
+    letter-spacing: 0.5px;
+}
+
+input.error, textarea.error{
+    border-color:rgba($color: #ff0000, $alpha: 0.4);
 }
