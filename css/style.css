@@ -44,4 +44,16 @@ span.error {
 input.error, textarea.error {
   border-color: rgba(255, 0, 0, 0.4);
 }
+
+.contact__linkedin, .contact__github, .contact__medium {
+  opacity: 0.6;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact__linkedin:hover, .contact__github:hover, .contact__medium:hover {
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
 /*# sourceMappingURL=style.css.map */

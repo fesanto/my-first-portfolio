@@ -14,7 +14,7 @@
 <body>
 
     <!-- Image and text -->
-    <nav id="home" class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -26,7 +26,7 @@
             </button>
             <div class="nav__menu collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
@@ -46,7 +46,7 @@
 
     <main>
 
-        <section class="home">
+        <section id="home" class="home">
             <div class="home__text">
                 <div class="container">
                     <p class="text-white text-center text-monospace">Bring your ideas.</p>
@@ -145,7 +145,7 @@
                 <div class="row">
 
                     <div class="col-lg-10">
-                        <form id="contact__form" class="contact__form">
+                        <form id="contact__form" class="contact__form" name="contact" netlify>
                             <div class="form-row ml-0 mr-0">
                                 <div class="col form-group mr-2 p-0">
                                     <input type="text" name="name" class="form-control" id="input1" placeholder="Name">
@@ -172,9 +172,9 @@
 
 
                     <div class="col-lg-2">
-                        <a href="https://www.linkedin.com/in/fernandasanto" target="blanket"><img class="rounded mx-auto d-block p-1" src="img/linkedin.png"></a>
-                        <a href="https://github.com/fesanto" target="blanket"><img class="rounded mx-auto d-block p-1" src="img/github.png"></a>
-                        <a href="https://medium.com/@fernandasanto" target="blanket"><img class="rounded mx-auto d-block p-1" src="img/medium.png"></a>
+                        <a class="contact__linkedin" href="https://www.linkedin.com/in/fernandasanto" target="blanket"><img class="rounded mx-auto d-block p-1" src="img/linkedin.png"></a>
+                        <a class="contact__github" href="https://github.com/fesanto" target="blanket"><img class="rounded mx-auto d-block p-1" src="img/github.png"></a>
+                        <a class="contact__medium" href="https://medium.com/@fernandasanto" target="blanket"><img class="rounded mx-auto d-block p-1" src="img/medium.png"></a>
                     </div>
 
                 </div>

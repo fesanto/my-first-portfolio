@@ -42,3 +42,14 @@ span.error{
 input.error, textarea.error{
     border-color:rgba($color: #ff0000, $alpha: 0.4);
 }
+
+//efeito sobre os links das redes sociais
+.contact__linkedin, .contact__github, .contact__medium{
+    opacity: 0.6;
+    transition: 0.3s
+}
+
+.contact__linkedin:hover, .contact__github:hover, .contact__medium:hover{
+    opacity: 1;
+    transition: 0.3s;
+}
