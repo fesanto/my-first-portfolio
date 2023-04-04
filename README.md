@@ -1,2 +1,2 @@
-# Portfolio
-Portfolio de desenvolvedora front-end - https://fesanto.github.io/
+# Meu Primeiro Portfolio | My first portfolio
+Portfolio de desenvolvedora front-end
